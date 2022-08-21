@@ -1,0 +1,268 @@
+nav {
+    background: none;
+}
+
+
+#background {
+    color: white;
+    background-color: white;
+    margin-top: 0px;
+    width: 100%;
+    height: 40em;
+}
+
+#back {
+    background: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+}
+
+#logo-book {
+    width: 70px;
+    height: 70px;
+}
+
+#cart {
+    width: 60px;
+    height: 60px;
+}
+
+#icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+#icon:hover {
+    color: #dbdbdb;
+}
+
+#search {
+    width: 250px;
+    height: 35px;
+    margin-top: 17px;
+}
+
+#cate {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#contact {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+
+/*Main Page*/
+#welcome {
+    width: 500px;
+    height: 350px;
+}
+
+#des {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:inherit;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.discription {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 1em;
+    color: #6d6d6d;
+}
+
+.join-us {
+    font-weight: bold;
+    width: 150px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+
+    display: grid;
+    grid-template-rows: minmax(100% , 1fr);
+    grid-template-areas: "stack";
+
+    overflow: hidden;
+
+    background-color: aquamarine;
+    box-shadow: 0 0 15px #242424;
+
+    margin: 15px;
+    margin-left: 70px;
+    float: right;
+}
+
+.card:hover {
+    box-shadow: rgb(84, 84, 85) 1px 1px 5px 5px;
+}
+
+.card > img,
+.card > figcaption {
+    grid-area: stack;
+}
+
+.card > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card > figcaption {
+    grid-area: stack;
+    background-color: #242424e0;
+    transform: translateY(calc(100% - 0rem));
+    transition: transform 600ms;
+    color: white;
+}
+
+.text-dark:hover {
+    color: white;
+}
+
+.card button {
+    color: black;
+}
+
+.card > figcaption > h4 {
+    height: 1.5em;
+    width: 100%;
+    font-size: 23px;
+}
+
+.card:hover figcaption {
+    transform: none;
+}
+
+
+/*Footer Pages*/
+.footer {
+    height: 270px;
+    background: #202020;
+
+}
+
+.nav-item a {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 2em;
+    outline: none;
+    outline-style: hidden;
+}
+
+.nav-item a:hover {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 2em;
+    outline: hidden;
+    outline-style:none;
+}
+
+.nav-item {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+h5 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.col-md-3 a {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.sochal {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.ss {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.call {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 2em;
+}
+
+#copy {
+    color: white;
+    font-size: large;
+    font-style: italic;
+}
+
+#rows {
+    height: 200px;
+}
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*Jouin us*/
+ #hr-left {
+     color: blue;
+     background-color: blue;
+     width: 100%;
+     margin-left: 0px;
+ }
+
+ #hr-right {
+    color: blue;
+    background-color: blue;
+    width: 100%;
+    margin-right: 0px;
+ }
+
+ #or {
+     color: #202020;
+     font-style: italic;
+     font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+ }
+
+ .sig {
+     width: 250px;
+ }
